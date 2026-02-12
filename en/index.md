@@ -12,7 +12,7 @@ json_ld:
 
 <!-- TODO: Short intro — what this site is, what visitors can see here -->
 
-We observe Japanese birds ([shijūkara or Parus cinereus](https://en.wikipedia.org/wiki/Cinereous_tit) raising their chicks via a camera installed in a nest box.
+We observe Japanese birds ([shijūkara or Parus cinereus](https://en.wikipedia.org/wiki/Cinereous_tit)) raising their chicks via a camera installed in a nest box.
 
 <!-- TODO: Current status or season note -->
 
