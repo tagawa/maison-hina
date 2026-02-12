@@ -12,7 +12,7 @@ json_ld:
 
 <!-- TODO: Short intro — what this site is, what visitors can see here -->
 
-巣箱に設置したカメラでシジュウカラの子育てを観察しています。
+巣箱に設置したカメラで[シジュウカラ](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%B8%E3%83%A5%E3%82%A6%E3%82%AB%E3%83%A9)の子育てを観察しています。
 
 <!-- TODO: Current status or season note -->
 
