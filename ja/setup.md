@@ -32,7 +32,11 @@ OSは[Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) 
 
 ## ソフトウェア
 
-カメラの映像取得には`rpicam-vid`を使用し、配信には[MediaMTX](https://github.com/bluenviron/mediamtx)を使用しています。
+カメラの映像取得と配信にはGStreamer（`gst-launch-1.0`と`libcamerasrc`）を使用しています。映像はRTMPで[MediaMTX](https://github.com/bluenviron/mediamtx)に送り、RTSPストリームとしてローカルネットワーク内で視聴できるようにしています。この構成にしたのは、ローカルネットワークでの視聴とYouTubeへの同時配信を比較的低い負荷で実現するためです。温度を低く保つことも重要なポイントです！
+
+赤外線LEDは最低の明るさでも映像が紫がかるため、カラーモードの彩度を少し下げています。
+
+30秒ごとにRTSPストリームからスナップショットを撮影し、あとからImageMagickで画像を比較して、鳥の出入りなど変化のあったコマだけを抽出しています。
 
 Motionなどの動体検知ソフトも検討しましたが、現在のOS（Trixie）との相性が悪いため使用していません。
 
