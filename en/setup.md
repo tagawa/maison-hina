@@ -26,9 +26,9 @@ The camera connects to the Raspberry Pi with a ribbon cable.
 
 ## Raspberry Pi
 
-We use a Raspberry Pi 4 Model B (8GB RAM, ARM 64-bit).
+We use a [Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) (8GB RAM, ARM 64-bit).
 
-The operating system is Raspberry Pi OS Lite "Trixie" (released December 2025, based on Debian 13). It's the lightweight version with no desktop environment.
+The operating system is [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) Lite "Trixie" (released December 2025, based on Debian 13). It's the lightweight version with no desktop environment.
 
 ## Software
 
