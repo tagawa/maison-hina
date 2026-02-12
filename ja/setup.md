@@ -12,9 +12,14 @@ json_ld:
 
 ## 巣箱
 
-巣箱は手作りです。入口の穴は直径28mmで、[シジュウカラ](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%B8%E3%83%A5%E3%82%A6%E3%82%AB%E3%83%A9)に適したサイズです（スズメには小さすぎます）。カーポートの屋根の下に設置しています。
+巣箱は手作りです。入口の穴は直径28mmで、[シジュウカラ](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%B8%E3%83%A5%E3%82%A6%E3%82%AB%E3%83%A9)に適したサイズです（スズメには小さすぎるはずですが、2025年に侵入されました）。カーポートの屋根の下に設置しています。
 
 毎年の巣立ちが終わった後、巣箱の中身を取り出し、熱湯で消毒しています。
+
+<figure>
+  <img src="/assets/images/birdbox_v1_exterior.jpg" alt="自作の巣箱。" width="480" height="640" loading="lazy">
+  <figcaption>初代の巣箱</figcaption>
+</figure>
 
 ## カメラ
 
@@ -23,6 +28,11 @@ OV5647センサー搭載の赤外線カメラモジュールを使用してい�
 カメラのレンズの両側に赤外線LEDが1つずつ取り付けられています。各LEDには明るさ調整用のネジがあり、手動で調整します。赤外線LEDはわずかに赤く光りますが、鳥には見えないため巣作りの妨げにはなりません。
 
 カメラはリボンケーブルでRaspberry Piに接続しています。
+
+<figure>
+  <img src="/assets/images/birdbox_v2_interior.jpg" alt="現在の巣箱の内部。カメラモジュール、赤外線LED、USBマイク" width="480" height="640" loading="lazy">
+  <figcaption>現在の巣箱の内部。赤外線LEDの片方をUSBマイクに交換</figcaption>
+</figure>
 
 ## Raspberry Pi
 
@@ -42,8 +52,23 @@ Motionなどの動体検知ソフトも検討しましたが、現在のOS（Tri
 
 ## 配信
 
-映像はWi-Fi経由でローカルネットワーク内に配信しており、自宅から視聴しています。外部への配信は行っていません。
+映像はWi-Fi経由でローカルネットワーク内に配信しており、自宅から視聴しています。
+
+YouTubeには映像のみを配信しています。近隣のプライバシー保護のため、音声は含めていません。
+
+## 音声
+
+現在の巣箱では、2つあった赤外線LEDの片方をUSBマイクに交換しています。音声はローカルネットワークのストリームでのみ視聴可能です。近隣のプライバシー保護のため、YouTubeには音声を配信していません。
 
 ## 電源・ネットワーク
 
 Raspberry Piにはカーポートまで延長した電源ケーブルで給電しています。ネットワークはWi-Fiで接続しています。
+
+## 以前のバージョン
+
+初代の巣箱では[Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)を使用していました。構成はよりシンプルで、映像のみ（音声なし）、ローカルネットワーク内でのみ視聴可能でした（YouTubeへの配信なし）。
+
+<figure>
+  <img src="/assets/images/birdbox_v1_interior.jpg" alt="初代の巣箱の内部。Raspberry Pi 3 B+のカメラモジュールと赤外線LED" width="480" height="640" loading="lazy">
+  <figcaption>初代の巣箱の内部。Raspberry Pi 3 B+のカメラモジュールと赤外線LED</figcaption>
+</figure>
