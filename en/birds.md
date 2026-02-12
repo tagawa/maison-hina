@@ -1,14 +1,14 @@
 ---
-title: Japanese Tit
+title: shijūkara
 json_ld:
   "@context": "https://schema.org"
   "@type": "Article"
-  headline: "About the Japanese Tit (Shijūkara)"
+  headline: "About Parus cinereus (Shijūkara)"
   url: "https://maison-hina.com/en/birds"
   inLanguage: "en"
 ---
 
-# About the Japanese Tit
+# About Parus cinereus (Shijūkara)
 
 ## Basics
 
