@@ -12,24 +12,34 @@ json_ld:
 
 ## 巣箱
 
-<!-- TODO: Dimensions, material, entrance hole size, mounting location -->
+巣箱は手作りです。入口の穴は直径28mmで、シジュウカラに適したサイズです（スズメには小さすぎます）。カーポートの屋根の下に設置しています。
+
+毎年の巣立ちが終わった後、巣箱の中身を取り出し、熱湯で消毒しています。
 
 ## カメラ
 
-<!-- TODO: Camera model, resolution, IR/night vision, how it's mounted inside -->
+OV5647センサー搭載の赤外線カメラモジュールを使用しています。赤外線フィルターなしのため、暗い巣箱の中でも撮影できます。最大解像度は2592×1944ピクセルです。
+
+カメラのレンズの両側に赤外線LEDが1つずつ取り付けられています。各LEDには明るさ調整用のネジがあり、手動で調整します。赤外線LEDはわずかに赤く光りますが、鳥には見えないため巣作りの妨げにはなりません。
+
+カメラはリボンケーブルでRaspberry Piに接続しています。
 
 ## Raspberry Pi
 
-<!-- TODO: Model, OS, role (recording, streaming, both?) -->
+Raspberry Pi 4 Model B（8GB RAM、ARM 64bit）を使用しています。
+
+OSはRaspberry Pi OS Lite「Trixie」（2025年12月リリース、Debian 13ベース）です。デスクトップ環境なしの軽量版を使っています。
 
 ## ソフトウェア
 
-<!-- TODO: What software/code is running, any custom scripts -->
+カメラの映像取得には`rpicam-vid`を使用し、配信には[MediaMTX](https://github.com/bluenviron/mediamtx)を使用しています。
+
+Motionなどの動体検知ソフトも検討しましたが、現在のOS（Trixie）との相性が悪いため使用していません。
 
 ## 配信
 
-<!-- TODO: How the stream/recordings reach viewers (YouTube, direct, etc.) -->
+映像はWi-Fi経由でローカルネットワーク内に配信しており、自宅から視聴しています。外部への配信は行っていません。
 
 ## 電源・ネットワーク
 
-<!-- TODO: How it's all powered and connected -->
+Raspberry Piにはカーポートまで延長した電源ケーブルで給電しています。ネットワークはWi-Fiで接続しています。
