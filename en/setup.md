@@ -12,7 +12,7 @@ json_ld:
 
 ## Nest box
 
-The nest box is hand-built. The entrance hole is 28mm in diameter — the right size for [Japanese tits](https://en.wikipedia.org/wiki/Cinereous_tit) but supposedly too small for sparrows (although they did invade our box in 2025). It's mounted under the roof of our car port so we don't need to worry about the box being 100% watertight.
+The nest box is hand-built. The entrance hole is 28mm in diameter — the right size for [Japanese tits](https://en.wikipedia.org/wiki/Cinereous_tit){:target="_blank" rel="noopener"} but supposedly too small for sparrows (although they did invade our box in 2025). It's mounted under the roof of our car port so we don't need to worry about the box being 100% watertight.
 
 After each nesting season, we remove the old nest material and sterilise the box with boiling water.
 
@@ -34,13 +34,13 @@ An infrared LED is mounted on one side of the lens, with its own small circuit b
 
 ## Raspberry Pi
 
-We use a [Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) (8GB RAM, ARM 64-bit).
+We use a [Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/){:target="_blank" rel="noopener"} (8GB RAM, ARM 64-bit).
 
-The operating system is [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) Lite "Trixie" (released December 2025, based on Debian 13). It's the lightweight version with no desktop environment.
+The operating system is [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/){:target="_blank" rel="noopener"} Lite "Trixie" (released December 2025, based on Debian 13). It's the lightweight version with no desktop environment.
 
 ## Software
 
-Video capture and encoding uses GStreamer (`gst-launch-1.0` with `libcamerasrc`). The stream is sent via RTMP to [MediaMTX](https://github.com/bluenviron/mediamtx), which re-serves it as an RTSP stream on the local network. We chose this setup so we can watch the stream on the local network and stream to YouTube at the same time, with relatively low overhead. One of the priorities is keeping the temperature low!
+Video capture and encoding uses GStreamer (`gst-launch-1.0` with `libcamerasrc`). The stream is sent via RTMP to [MediaMTX](https://github.com/bluenviron/mediamtx){:target="_blank" rel="noopener"}, which re-serves it as an RTSP stream on the local network. We chose this setup so we can watch the stream on the local network and stream to YouTube at the same time, with relatively low overhead. One of the priorities is keeping the temperature low!
 
 The colour mode is slightly desaturated because the infrared LEDs create a bright purple image, even on their lowest brightness.
 
@@ -64,7 +64,7 @@ The Raspberry Pi is powered by mains electricity via a long cable running to the
 
 ## Previous version
 
-The first version of the birdbox used a [Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/). The setup was simpler — video only, no audio, and the stream was only available on our local network (no YouTube).
+The first version of the birdbox used a [Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/){:target="_blank" rel="noopener"}. The setup was simpler — video only, no audio, and the stream was only available on our local network (no YouTube).
 
 <figure>
   <img src="/assets/images/birdbox_v1_interior.jpg" alt="Inside the first birdbox — camera module and two infrared LEDs, powered by a Raspberry Pi 3 B+" width="480" height="640" loading="lazy">
