@@ -3,7 +3,7 @@ title: Home
 json_ld:
   "@context": "https://schema.org"
   "@type": "WebSite"
-  name: "メゾンひな"
+  name: "Maison Hina"
   url: "https://maison-hina.com"
   inLanguage: "en"
 ---
