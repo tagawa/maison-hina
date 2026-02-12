@@ -16,6 +16,11 @@ The nest box is hand-built. The entrance hole is 28mm in diameter — the right 
 
 After each nesting season, we remove the old nest material and sterilise the box with boiling water.
 
+<figure>
+  <img src="/assets/images/birdbox_v1_exterior.jpg" alt="The first birdbox, mounted under the car port roof" width="600" height="400" loading="lazy">
+  <figcaption>The first birdbox</figcaption>
+</figure>
+
 ## Camera
 
 We use a camera module with an OV5647 sensor and no infrared filter, so it can see inside the dark nest box. Maximum resolution is 2592×1944 pixels.
@@ -23,6 +28,11 @@ We use a camera module with an OV5647 sensor and no infrared filter, so it can s
 An infrared LED is mounted on each side of the lens, each on its own small circuit board that screws onto the camera board. Brightness is adjusted manually with a small screw on each LED. The LEDs give off a faint red glow, but birds can't see it so it doesn't disturb nesting.
 
 The camera connects to the Raspberry Pi with a ribbon cable.
+
+<figure>
+  <img src="/assets/images/birdbox_v2_interior.jpg" alt="Inside the current birdbox — camera module, one infrared LED, and a USB microphone" width="600" height="400" loading="lazy">
+  <figcaption>Inside the current birdbox — one infrared LED replaced with a USB microphone</figcaption>
+</figure>
 
 ## Raspberry Pi
 
@@ -42,8 +52,23 @@ We considered motion detection software such as Motion, but it doesn't work well
 
 ## Streaming
 
-The video stream runs over Wi-Fi on our local home network. We watch it at home. There is no external or public stream.
+The video stream runs over Wi-Fi on our local home network. We watch it at home.
+
+YouTube receives the video stream but not the audio, to protect our neighbours' privacy.
+
+## Audio
+
+In the current version of the birdbox, one of the two infrared LEDs has been replaced with a USB microphone. Audio is available on the local network stream only — it is not sent to YouTube, to protect our neighbours' privacy.
 
 ## Power and network
 
 The Raspberry Pi is powered by mains electricity via a long cable running to the car port. Network connection is Wi-Fi.
+
+## Previous version
+
+The first version of the birdbox used a [Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/). The setup was simpler — video only, no audio, and the stream was only available on our local network (no YouTube).
+
+<figure>
+  <img src="/assets/images/birdbox_v1_interior.jpg" alt="Inside the first birdbox — camera module and two infrared LEDs, powered by a Raspberry Pi 3 B+" width="600" height="400" loading="lazy">
+  <figcaption>Inside the first birdbox — camera module and infrared LEDs, powered by a Raspberry Pi 3 B+</figcaption>
+</figure>
