@@ -10,7 +10,7 @@ json_ld:
 
 # 観察設備について
 
-巣箱は手作りです。入口の穴の直径は28mmで、[シジュウカラ](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%B8%E3%83%A5%E3%82%A6%E3%82%AB%E3%83%A9)にちょうどよく、スズメには小さすぎるとされています（とはいえ、2025年にはスズメに侵入されましたが…）。カーポートの屋根の下に設置しているため、巣箱の完全な防水性を心配する必要はありません。
+巣箱は手作りです。入口の穴の直径は28mmで、[シジュウカラ](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%B8%E3%83%A5%E3%82%A6%E3%82%AB%E3%83%A9){:target="_blank" rel="noopener"}にちょうどよく、スズメには小さすぎるとされています（とはいえ、2025年にはスズメに侵入されましたが…）。カーポートの屋根の下に設置しているため、巣箱の完全な防水性を心配する必要はありません。
 
 毎年の巣立ちが終わった後、巣箱の中身を取り出し、熱湯で消毒しています。
 
@@ -32,13 +32,13 @@ OV5647センサー搭載の赤外線カメラモジュールを使用してい�
 
 ## Raspberry Pi
 
-[Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)（8GB RAM、ARM 64bit）を使用しています。
+[Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/){:target="_blank" rel="noopener"}（8GB RAM、ARM 64bit）を使用しています。
 
-OSは[Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) Lite「Trixie」（2025年12月リリース、Debian 13ベース）です。デスクトップ環境なしの軽量版を使っています。
+OSは[Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/){:target="_blank" rel="noopener"} Lite「Trixie」（2025年12月リリース、Debian 13ベース）です。デスクトップ環境なしの軽量版を使っています。
 
 ## ソフトウェア
 
-カメラの映像取得と配信にはGStreamer（`gst-launch-1.0`と`libcamerasrc`）を使用しています。映像はRTMPで[MediaMTX](https://github.com/bluenviron/mediamtx)に送り、RTSPストリームとしてローカルネットワーク内で視聴できるようにしています。この構成にしたのは、ローカルネットワークでの視聴とYouTubeへの同時配信を比較的低い負荷で実現するためです。温度を低く保つことも重要なポイントです！
+カメラの映像取得と配信にはGStreamer（`gst-launch-1.0`と`libcamerasrc`）を使用しています。映像はRTMPで[MediaMTX](https://github.com/bluenviron/mediamtx){:target="_blank" rel="noopener"}に送り、RTSPストリームとしてローカルネットワーク内で視聴できるようにしています。この構成にしたのは、ローカルネットワークでの視聴とYouTubeへの同時配信を比較的低い負荷で実現するためです。温度を低く保つことも重要なポイントです！
 
 赤外線LEDは最低の明るさでも映像が紫がかるため、カラーモードの彩度を少し下げています。
 
@@ -62,7 +62,7 @@ Raspberry Piにはカーポートまで延長した電源ケーブルで給電�
 
 ## 以前のバージョン
 
-初代の巣箱では[Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)を使用していました。構成はよりシンプルで、映像のみ（音声なし）、ローカルネットワーク内でのみ視聴可能でした（YouTubeへの配信なし）。
+初代の巣箱では[Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/){:target="_blank" rel="noopener"}を使用していました。構成はよりシンプルで、映像のみ（音声なし）、ローカルネットワーク内でのみ視聴可能でした（YouTubeへの配信なし）。
 
 <figure>
   <img src="/assets/images/birdbox_v1_interior.jpg" alt="初代の巣箱の内部。Raspberry Pi 3 B+のカメラモジュールと赤外線LED" width="480" height="640" loading="lazy">
