@@ -17,7 +17,7 @@ The nest box is hand-built. The entrance hole is 28mm in diameter — the right 
 After each nesting season, we remove the old nest material and sterilise the box with boiling water.
 
 <figure>
-  <img src="/assets/images/birdbox_v1_exterior.jpg" alt="The first birdbox, mounted under the car port roof" width="600" height="400" loading="lazy">
+  <img src="/assets/images/birdbox_v1_exterior.jpg" alt="The exterior of the birdbox." width="480" height="640" loading="lazy">
   <figcaption>The first birdbox</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ An infrared LED is mounted on each side of the lens, each on its own small circu
 The camera connects to the Raspberry Pi with a ribbon cable.
 
 <figure>
-  <img src="/assets/images/birdbox_v2_interior.jpg" alt="Inside the current birdbox — camera module, one infrared LED, and a USB microphone" width="600" height="400" loading="lazy">
+  <img src="/assets/images/birdbox_v2_interior.jpg" alt="Inside the current birdbox — camera module, one infrared LED, and a USB microphone" width="480" height="640" loading="lazy">
   <figcaption>Inside the current birdbox — one infrared LED replaced with a USB microphone</figcaption>
 </figure>
 
@@ -69,6 +69,6 @@ The Raspberry Pi is powered by mains electricity via a long cable running to the
 The first version of the birdbox used a [Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/). The setup was simpler — video only, no audio, and the stream was only available on our local network (no YouTube).
 
 <figure>
-  <img src="/assets/images/birdbox_v1_interior.jpg" alt="Inside the first birdbox — camera module and two infrared LEDs, powered by a Raspberry Pi 3 B+" width="600" height="400" loading="lazy">
+  <img src="/assets/images/birdbox_v1_interior.jpg" alt="Inside the first birdbox — camera module and two infrared LEDs, powered by a Raspberry Pi 3 B+" width="480" height="640" loading="lazy">
   <figcaption>Inside the first birdbox — camera module and infrared LEDs, powered by a Raspberry Pi 3 B+</figcaption>
 </figure>
