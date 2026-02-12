@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} – {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% if page.json_ld %}
+  <script type="application/ld+json">
+    {{ page.json_ld | jsonify }}
+  </script>
+  {% endif %}
   <!-- Fathom - privacy-focused website analytics -->
     <script src="https://cdn.usefathom.com/script.js" data-site="UZQFLUSW" defer></script>
   <!-- / Fathom -->
