@@ -26,9 +26,9 @@ OV5647センサー搭載の赤外線カメラモジュールを使用してい�
 
 ## Raspberry Pi
 
-Raspberry Pi 4 Model B（8GB RAM、ARM 64bit）を使用しています。
+[Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)（8GB RAM、ARM 64bit）を使用しています。
 
-OSはRaspberry Pi OS Lite「Trixie」（2025年12月リリース、Debian 13ベース）です。デスクトップ環境なしの軽量版を使っています。
+OSは[Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) Lite「Trixie」（2025年12月リリース、Debian 13ベース）です。デスクトップ環境なしの軽量版を使っています。
 
 ## ソフトウェア
 
