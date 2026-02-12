@@ -32,9 +32,13 @@ The operating system is [Raspberry Pi OS](https://www.raspberrypi.com/software/o
 
 ## Software
 
-Video capture is handled by `rpicam-vid`. For streaming we use [MediaMTX](https://github.com/bluenviron/mediamtx).
+Video capture and encoding uses GStreamer (`gst-launch-1.0` with `libcamerasrc`). The stream is sent via RTMP to [MediaMTX](https://github.com/bluenviron/mediamtx), which re-serves it as an RTSP stream on the local network. We chose this setup so we can watch the stream on the local network and stream to YouTube at the same time, with relatively low overhead. One of the priorities is keeping the temperature low!
 
-We considered motion detection software such as Motion, but it doesn't work well with the current OS (Trixie), so we don't use it.
+The colour mode is slightly desaturated because the infrared LEDs create a bright purple image, even on their lowest brightness.
+
+A snapshot is taken from the RTSP stream every 30 seconds. Later, we use ImageMagick to compare frames and pick out the ones where something changed — such as a bird entering or leaving the box.
+
+We considered motion detection software such as Motion, but it doesn't work well with the current OS (Trixie) so we don't use it.
 
 ## Streaming
 
