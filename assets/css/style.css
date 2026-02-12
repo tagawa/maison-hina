@@ -74,6 +74,22 @@ button:disabled {
   outline-offset: 2px;
 }
 
+figure {
+    margin: 1.5em 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.4em;
+}
+
 footer {
   color: #999;
   font-size: 0.85rem;
