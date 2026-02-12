@@ -12,7 +12,7 @@ json_ld:
 
 ## Nest box
 
-The nest box is hand-built. The entrance hole is 28mm in diameter — the right size for Japanese tits but too small for sparrows. It's mounted under the roof of our car port.
+The nest box is hand-built. The entrance hole is 28mm in diameter — the right size for [Japanese tits](https://en.wikipedia.org/wiki/Cinereous_tit) but supposedly too small for sparrows (although they did invade our box in 2025). It's mounted under the roof of our car port.
 
 After each nesting season, we remove the old nest material and sterilise the box with boiling water.
 
