@@ -25,9 +25,7 @@ After each nesting season, we remove the old nest material and sterilise the box
 
 We use a camera module with an OV5647 sensor and no infrared filter, so it can see inside the dark nest box. Maximum resolution is 2592×1944 pixels.
 
-An infrared LED is mounted on each side of the lens, each on its own small circuit board that screws onto the camera board. Brightness is adjusted manually with a small screw on each LED. The LEDs give off a faint red glow, but birds can't see it so it doesn't disturb nesting.
-
-The camera connects to the Raspberry Pi with a ribbon cable.
+An infrared LED is mounted on one side of the lens, with its own small circuit board that screws onto the camera board. Brightness is adjusted manually with a tiny screw next to the LED. The LED gives off a faint red glow, but birds can't see it so it doesn't disturb nesting. On the other side of the camera is a small USB microphone (lavalier mic). The birds don't seem to mind these objects in their nest, and will sometimes peck them to show who's the boss!
 
 <figure>
   <img src="/assets/images/birdbox_v2_interior.jpg" alt="Inside the current birdbox — camera module, one infrared LED, and a USB microphone" width="480" height="640" loading="lazy">
