@@ -1,5 +1,5 @@
 {% assign timeline_pages = site.pages
-  | where_exp: "p", "p.url contains '/ja/timeline/'"
+  | where: "timeline_year", true
   | sort: "url" %}
 
 {% assign current_index = nil %}
