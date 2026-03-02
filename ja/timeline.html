@@ -14,7 +14,7 @@ permalink: /ja/timeline/
 
 <ul class="timeline-index">
 
-  {% assign timeline_pages = site.pages | where_exp: "p", "p.url contains '/ja/timeline-'" | sort: "url" | reverse %}
+  {% assign timeline_pages = site.pages | where_exp: "p", "p.url contains '/ja/timeline/' and p.url != '/ja/timeline/'" | sort: "url" | reverse %}
 
   {% for p in timeline_pages %}
     <li>
