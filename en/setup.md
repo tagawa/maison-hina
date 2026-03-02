@@ -1,5 +1,6 @@
 ---
 title: Setup
+permalink: /en/setup/
 json_ld:
   "@context": "https://schema.org"
   "@type": "Article"
