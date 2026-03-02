@@ -1,5 +1,6 @@
 ---
 title: Home
+permalink: /en/
 json_ld:
   "@context": "https://schema.org"
   "@type": "WebSite"
