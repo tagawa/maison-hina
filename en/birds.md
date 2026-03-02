@@ -1,5 +1,6 @@
 ---
 title: shijūkara
+permalink: /en/birds/
 json_ld:
   "@context": "https://schema.org"
   "@type": "Article"
