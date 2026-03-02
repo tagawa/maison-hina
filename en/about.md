@@ -1,5 +1,6 @@
 ---
 title: About
+permalink: /en/about/
 json_ld:
   "@context": "https://schema.org"
   "@type": "AboutPage"
