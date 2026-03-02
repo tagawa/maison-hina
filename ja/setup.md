@@ -1,5 +1,6 @@
 ---
 title: 設備
+permalink: /ja/setup/
 json_ld:
   "@context": "https://schema.org"
   "@type": "Article"

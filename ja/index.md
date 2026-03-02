@@ -1,5 +1,6 @@
 ---
 title: ホーム
+permalink: /ja/
 json_ld:
   "@context": "https://schema.org"
   "@type": "WebSite"

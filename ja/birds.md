@@ -1,5 +1,6 @@
 ---
 title: シジュウカラ
+permalink: /ja/birds/
 json_ld:
   "@context": "https://schema.org"
   "@type": "Article"

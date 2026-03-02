@@ -1,5 +1,6 @@
 ---
 title: 概要
+permalink: /ja/about/
 json_ld:
   "@context": "https://schema.org"
   "@type": "AboutPage"
