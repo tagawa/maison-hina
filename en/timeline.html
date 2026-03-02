@@ -1,0 +1,33 @@
+---
+layout: default
+title: Nesting records
+lang: en
+permalink: /en/timeline/
+json_ld:
+  "@context": "https://schema.org"
+  "@type": "CollectionPage"
+  name: "Nesting records"
+  url: "https://maison-hina.com/en/timeline/"
+  inLanguage: "en"
+---
+
+<h1>{{ page.title }}</h1>
+
+<p>
+A record of every nesting season at Maison Hina.<br>
+Click a year for a detailed log of that season.
+</p>
+
+<ul class="timeline-index">
+
+  {% assign timeline_pages = site.pages | where: "timeline_year", true | where: "lang", "en" | sort: "url" | reverse %}
+
+  {% for p in timeline_pages %}
+    <li>
+      <a href="{{ p.url | relative_url }}">
+        {{ p.title }}
+      </a>
+    </li>
+  {% endfor %}
+
+</ul>
