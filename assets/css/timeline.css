@@ -22,6 +22,32 @@
 }
 
 
+.timeline-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+  font-size: 0.9rem;
+}
+
+.timeline-nav a {
+  text-decoration: none;
+  color: #374151;
+  border-bottom: 1px solid transparent;
+}
+
+.timeline-nav a:hover {
+  border-bottom-color: #9ca3af;
+}
+
+.timeline-nav .all {
+  font-weight: 500;
+}
+
+
+
 .timeline-page {
   max-width: 720px;
   margin: 40px auto;
