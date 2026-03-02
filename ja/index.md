@@ -18,3 +18,5 @@ json_ld:
 <!-- TODO: Current status or season note -->
 
 <!-- TODO: Link or pointer to live stream if applicable -->
+
+[巣作りの記録](/ja/timeline/)を年ごとにまとめています。カメラや巣箱の[設備について](/ja/setup/)も紹介しています。
