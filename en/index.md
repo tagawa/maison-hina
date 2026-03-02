@@ -18,3 +18,5 @@ We observe Japanese birds ([shijūkara or Parus cinereus](https://en.wikipedia.o
 <!-- TODO: Current status or season note -->
 
 <!-- TODO: Link or pointer to live stream if applicable -->
+
+Browse the [nesting records](/en/timeline/) by year, or read about the [camera and nest box setup](/en/setup/).
