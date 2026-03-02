@@ -1,1 +1,33 @@
+{% assign timeline_pages = site.pages
+  | where_exp: "p", "p.url contains '/ja/timeline-'"
+  | sort: "url" %}
 
+{% assign current_index = nil %}
+
+{% for p in timeline_pages %}
+  {% if p.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+<div class="timeline-nav">
+
+  {% if current_index > 0 %}
+    {% assign prev = timeline_pages[current_index | minus: 1] %}
+    <a class="prev" href="{{ prev.url | relative_url }}">
+      ← {{ prev.title }}
+    </a>
+  {% endif %}
+
+  <a class="all" href="{{ '/ja/timeline.html' | relative_url }}">
+    一覧へ戻る
+  </a>
+
+  {% if current_index < timeline_pages.size | minus: 1 %}
+    {% assign next = timeline_pages[current_index | plus: 1] %}
+    <a class="next" href="{{ next.url | relative_url }}">
+      {{ next.title }} →
+    </a>
+  {% endif %}
+
+</div>
