@@ -1,5 +1,5 @@
 {% assign timeline_pages = site.pages
-  | where_exp: "p", "p.url contains '/ja/timeline-'"
+  | where_exp: "p", "p.url contains '/ja/timeline/' and p.url != '/ja/timeline/'"
   | sort: "url" %}
 
 {% assign current_index = nil %}
@@ -19,7 +19,7 @@
     </a>
   {% endif %}
 
-  <a class="all" href="{{ '/ja/timeline.html' | relative_url }}">
+  <a class="all" href="{{ '/ja/timeline/' | relative_url }}">
     一覧へ戻る
   </a>
 
