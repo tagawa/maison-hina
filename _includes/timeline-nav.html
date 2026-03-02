@@ -23,7 +23,8 @@
     一覧へ戻る
   </a>
 
-  {% if current_index < timeline_pages.size | minus: 1 %}
+  {% assign last_index = timeline_pages.size | minus: 1 %}
+  {% if current_index < last_index %}
     {% assign next = timeline_pages[current_index | plus: 1] %}
     <a class="next" href="{{ next.url | relative_url }}">
       {{ next.title }} →
