@@ -25,6 +25,13 @@ body {
   background-color: #f9fafb;
 }
 
+body > main {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+
 /* Headings — semi-bold, tight tracking, Tailwind gray-900 */
 h1, h2, h3, h4, h5, h6 {
   color: #111827;
