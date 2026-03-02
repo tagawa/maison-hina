@@ -4,7 +4,7 @@ json_ld:
   "@context": "https://schema.org"
   "@type": "Article"
   headline: "観察設備について"
-  url: "https://maison-hina.com/ja/setup/"
+  url: "https://maison-hina.com/ja/setup"
   inLanguage: "ja"
 ---
 
