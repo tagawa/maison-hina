@@ -1,5 +1,6 @@
 {% assign timeline_pages = site.pages
   | where: "timeline_year", true
+  | where: "lang", page.lang
   | sort: "url" %}
 
 {% assign current_index = nil %}
@@ -19,9 +20,11 @@
     </a>
   {% endif %}
 
-  <a class="all" href="{{ '/ja/timeline' | relative_url }}">
-    一覧へ戻る
-  </a>
+  {% if page.lang == "ja" %}
+    <a class="all" href="{{ '/ja/timeline/' | relative_url }}">一覧へ戻る</a>
+  {% else %}
+    <a class="all" href="{{ '/en/timeline/' | relative_url }}">All years</a>
+  {% endif %}
 
   {% assign last_index = timeline_pages.size | minus: 1 %}
   {% if current_index < last_index %}
