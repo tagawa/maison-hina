@@ -27,6 +27,6 @@ Maison Hina (メゾンひな) combines the French word for house (*maison*) with
 
 ## History
 
-The earliest season documented here is 2021 — recorded from [a video by Shimesan on YouTube](https://www.youtube.com/watch?v=j7S0j0qnsTg){:target="_blank" rel="noopener"} rather than our own camera. Our own [nesting observations](/en/timeline/) start from 2023.
+The earliest season documented here is 2021, recorded from [a video by Shimesan on YouTube](https://www.youtube.com/watch?v=j7S0j0qnsTg){:target="_blank" rel="noopener"} rather than our own camera. Our own [nesting observations](/en/timeline/) start from 2023.
 
 The [technical setup](/en/setup/) has changed over the years. The first nest box used a Raspberry Pi 3 B+ with a camera and infrared LED — video only, available on the local network. The current box uses a Raspberry Pi 4, adds a USB microphone, and streams live to YouTube.
