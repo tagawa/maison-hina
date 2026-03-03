@@ -76,10 +76,10 @@ a:hover {
   text-decoration-color: #2563eb;
 }
 
-/* Small utility bar above nav for the language switcher */
+/* Language bar: mobile-only strip above nav */
 .lang-bar {
   text-align: right;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 /* #4b5563 on #f9fafb = ~6.3:1, passes WCAG AA */
@@ -91,6 +91,26 @@ a:hover {
 
 .lang-bar a:hover {
   color: #374151;
+}
+
+/* Mobile: bleed through body padding to give full-width background strip */
+@media (max-width: 29.9rem) {
+  .lang-bar {
+    background-color: #f3f4f6;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 0.3rem 1rem;
+  }
+}
+
+/* Desktop: hide lang-bar, show lang-switch inside nav pushed right */
+@media (min-width: 30rem) {
+  .lang-bar {
+    display: none;
+  }
+  nav .lang-switch {
+    margin-left: auto;
+  }
 }
 
 nav {
@@ -116,6 +136,21 @@ nav a {
 nav a:hover {
   color: #111827;
   border-bottom-color: #9ca3af;
+}
+
+/* Hidden on mobile — lang-bar handles it instead */
+nav .lang-switch {
+  display: none;
+}
+
+/* Muted styling for the lang-switch link; same contrast as lang-bar (#4b5563 ~6.3:1) */
+nav .lang-switch a {
+  font-size: 0.8rem;
+  color: #4b5563;
+}
+
+nav .lang-switch a:hover {
+  color: #374151;
 }
 
 /* Tighter gap on narrow screens to fit all nav items on one row */
