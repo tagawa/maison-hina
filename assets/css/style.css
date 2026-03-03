@@ -102,8 +102,11 @@ nav a:hover {
   border-bottom-color: #9ca3af;
 }
 
-nav .lang-switch {
-  margin-left: auto;
+/* Only push lang switch right when there's enough room for all items on one row */
+@media (min-width: 30rem) {
+  nav .lang-switch {
+    margin-left: auto;
+  }
 }
 
 main {
