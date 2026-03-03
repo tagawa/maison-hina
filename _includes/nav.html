@@ -12,11 +12,13 @@
     <!--<a href="{{ '/ja/birds/' | relative_url }}">シジュウカラ</a>-->
     <a href="{{ '/ja/timeline/' | relative_url }}">記録</a>
     <a href="{{ '/ja/setup/' | relative_url }}">設備</a>
+    <span class="lang-switch"><a href="{{ page.url | replace:'ja','en' | relative_url }}">English</a></span>
   {% else %}
     <a href="{{ '/en/' | relative_url }}">Home</a>
     <a href="{{ '/en/about/' | relative_url }}">About</a>
     <!--<a href="{{ '/en/birds/' | relative_url }}">Birds</a>-->
     <a href="{{ '/en/timeline/' | relative_url }}">Timeline</a>
     <a href="{{ '/en/setup/' | relative_url }}">Setup</a>
+    <span class="lang-switch"><a href="{{ page.url | replace:'en','ja' | relative_url }}">日本語</a></span>
   {% endif %}
 </nav>
