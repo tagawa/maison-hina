@@ -7,8 +7,11 @@
   {% if page.description %}
     <meta name="description" content="{{ page.description }}">
   {% endif %}
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
+  {% if page.url contains 'timeline' %}
+    <link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
+  {% endif %}
 
   {% if page.json_ld %}
   <script type="application/ld+json">
