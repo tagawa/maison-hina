@@ -23,7 +23,7 @@ We live in an urban area in central Japan. There are a lot of houses around and 
 
 ## The name
 
-メゾンひな combines the French word for house (*maison*) with the Japanese word for chick (*ひな*, pronounced "hee-na"). 
+Maison Hina (メゾンひな) combines the French word for house (*maison*) with the Japanese word for chick (*ひな*, pronounced "hee-na"). 
 
 ## History
 
