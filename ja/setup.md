@@ -5,11 +5,13 @@ json_ld:
   "@context": "https://schema.org"
   "@type": "Article"
   headline: "観察設備について"
-  url: "https://maison-hina.com/ja/setup"
+  url: "https://maison-hina.com/ja/setup/"
   inLanguage: "ja"
 ---
 
 # 観察設備について
+
+## 巣箱
 
 巣箱は手作りです。入口の穴の直径は28mmで、[シジュウカラ](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%B8%E3%83%A5%E3%82%A6%E3%82%AB%E3%83%A9){:target="_blank" rel="noopener"}にちょうどよく、スズメには小さすぎるとされています（とはいえ、2025年にはスズメに侵入されましたが…）。カーポートの屋根の下に設置しているため、巣箱の完全な防水性を心配する必要はありません。
 
