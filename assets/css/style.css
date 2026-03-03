@@ -102,6 +102,13 @@ nav a:hover {
   border-bottom-color: #9ca3af;
 }
 
+/* Tighter gap on narrow screens to fit all nav items on one row */
+@media (max-width: 29.9rem) {
+  nav {
+    gap: 0.5rem;
+  }
+}
+
 /* Only push lang switch right when there's enough room for all items on one row */
 @media (min-width: 30rem) {
   nav .lang-switch {
