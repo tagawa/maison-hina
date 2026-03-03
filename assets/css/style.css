@@ -93,26 +93,6 @@ a:hover {
   color: #374151;
 }
 
-/* Mobile: bleed through body padding to give full-width background strip */
-@media (max-width: 29.9rem) {
-  .lang-bar {
-    background-color: #f3f4f6;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    padding: 0.3rem 1rem;
-  }
-}
-
-/* Desktop: hide lang-bar, show lang-switch inside nav pushed right */
-@media (min-width: 30rem) {
-  .lang-bar {
-    display: none;
-  }
-  nav .lang-switch {
-    margin-left: auto;
-  }
-}
-
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -153,10 +133,28 @@ nav .lang-switch a:hover {
   color: #374151;
 }
 
-/* Tighter gap on narrow screens to fit all nav items on one row */
+/* Mobile: tighter nav gap + full-width darker background strip for lang-bar */
 @media (max-width: 29.9rem) {
   nav {
     gap: 0.5rem;
+  }
+  .lang-bar {
+    background-color: #f3f4f6;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 0.3rem 1rem;
+  }
+}
+
+/* Desktop: hide lang-bar, show lang-switch inside nav pushed right */
+@media (min-width: 30rem) {
+  .lang-bar {
+    display: none;
+  }
+  nav .lang-switch {
+    display: block;
+    margin-left: auto;
+    align-self: center;
   }
 }
 
