@@ -5,7 +5,7 @@ json_ld:
   "@context": "https://schema.org"
   "@type": "Article"
   headline: "Technical setup"
-  url: "https://maison-hina.com/en/setup"
+  url: "https://maison-hina.com/en/setup/"
   inLanguage: "en"
 ---
 
