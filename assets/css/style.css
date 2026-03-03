@@ -76,7 +76,23 @@ a:hover {
   text-decoration-color: #2563eb;
 }
 
-/* Horizontal nav with language switcher pushed right */
+/* Small utility bar above nav for the language switcher */
+.lang-bar {
+  text-align: right;
+  margin-bottom: 0.25rem;
+}
+
+/* #4b5563 on #f9fafb = ~6.3:1, passes WCAG AA */
+.lang-bar a {
+  font-size: 0.8rem;
+  color: #4b5563;
+  text-decoration: none;
+}
+
+.lang-bar a:hover {
+  color: #374151;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -109,12 +125,6 @@ nav a:hover {
   }
 }
 
-/* Only push lang switch right when there's enough room for all items on one row */
-@media (min-width: 30rem) {
-  nav .lang-switch {
-    margin-left: auto;
-  }
-}
 
 main {
   margin-bottom: 2rem;
