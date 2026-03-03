@@ -5,7 +5,7 @@ json_ld:
   "@context": "https://schema.org"
   "@type": "AboutPage"
   name: "メゾンひなについて"
-  url: "https://maison-hina.com/ja/about"
+  url: "https://maison-hina.com/ja/about/"
   inLanguage: "ja"
 ---
 
@@ -13,16 +13,20 @@ json_ld:
 
 ## きっかけ
 
-<!-- TODO: Why the nest box was set up -->
+数年前、ドイツの友人宅を訪ねたとき、庭でおしゃべりをしていたすぐそばの巣箱から鳥が出入りしていて驚きました。自分たちの住む街でも巣箱に鳥を呼べないか、と思い立ち、庭のポールに（カメラなしの）巣箱を設置してみることに。
+
+ある年、実際に鳥が巣を作ってくれました。でも、中に何羽いるのか、どんなふうに成長しているのか、いつ巣立ったのかもわからないまま——それがもどかしくて。そんなとき、ドイツの[野鳥観察サイト](https://www.naturetec-live.de){:target="_blank" rel="noopener"}で、巣箱の内側からのライブ映像を複数配信しているのを見つけました。そのデザインを参考に、小型コンピュータと赤外線カメラを使った[自作の巣箱](/ja/setup/)を作ってみたところ、親鳥の出入りとヒナたちの成長を自分の目で見られたときの感動は、ひとことでは言い表せません。
 
 ## 場所
 
-<!-- TODO: Where it is (as much detail as you're comfortable sharing) -->
+日本の都市部（中部地方）に住んでいます。周囲には家が立ち並び、歩行者も多いですが、鳥たちは気にする様子もなく巣作りをしてくれます。近くには小さな公園があり、池や木々があって、親鳥はそこを行き来しています。
 
 ## 名前の由来
 
-<!-- TODO: How the name メゾンひな came about -->
+「メゾンひな」は、フランス語で「家」を意味する「maison（メゾン）」と、日本語の「ひな（雛）」を組み合わせた名前です。
 
 ## これまでの記録
 
-<!-- TODO: How long it's been running, notable years/events -->
+このサイトに記録されている最も古い営巣記録は2021年のもので、しめさんが[YouTubeに公開された動画](https://www.youtube.com/watch?v=j7S0j0qnsTg){:target="_blank" rel="noopener"}をもとにまとめたものです。2023年以降は[自分たちで観察・記録](/ja/timeline/)しています。
+
+[設備](/ja/setup/)は少しずつ進化しています。初代の巣箱はRaspberry Pi 3 B+とカメラ、赤外線LEDだけのシンプルな構成で、映像のみ、ローカルネットワーク内でのみ視聴できるものでした。現在の巣箱はRaspberry Pi 4を使い、USBマイクも加えてYouTubeへのライブ配信も行っています。
