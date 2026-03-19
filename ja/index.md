@@ -15,8 +15,8 @@ json_ld:
 巣箱に設置したカメラで[シジュウカラ](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%B8%E3%83%A5%E3%82%A6%E3%82%AB%E3%83%A9){:target="_blank" rel="noopener"}の子育てを観察しています。
 
 <figure>
-  <img src="/assets/images/IMG_6612.jpeg" alt="巣箱の中" width="640" height="480" loading="lazy">
-  <figcaption>巣箱の中</figcaption>
+  <img src="/assets/images/IMG_6612.jpeg" alt="巣箱の中の生後2週間のヒナ" width="640" height="480" loading="lazy">
+  <figcaption>巣箱の中:生後2週間のヒナ</figcaption>
 </figure>
 
 
