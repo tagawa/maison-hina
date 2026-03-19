@@ -15,8 +15,8 @@ json_ld:
 We observe Japanese birds ([shijūkara or Parus cinereus](https://en.wikipedia.org/wiki/Cinereous_tit){:target="_blank" rel="noopener"}) raising their chicks via a camera installed in a nest box.
 
 <figure>
-  <img src="/assets/images/IMG_6612.jpeg" alt="Inside the birdbox during nesting season." width="640" height="480" loading="lazy">
-  <figcaption>Inside the birdbox</figcaption>
+  <img src="/assets/images/IMG_6612.jpeg" alt="Fluffy chicks inside the birdbox during nesting season." width="640" height="480" loading="lazy">
+  <figcaption>2-week-old chicks inside the birdbox</figcaption>
 </figure>
 
 
